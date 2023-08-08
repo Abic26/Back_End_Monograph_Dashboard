@@ -17,5 +17,5 @@ use App\Http\Controllers\Api\NewUsersController;
 */
 
 Route::post("/newUsers", [NewUsersController::class, 'create']);
-Route::post("/newUsers/getusers", [NewUsersController::class, 'getUser']);
+Route::get("/newUsers/getusers", [NewUsersController::class, 'getUser']);
 
