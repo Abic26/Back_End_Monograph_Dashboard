@@ -23,7 +23,7 @@ class NewUsersController extends Controller
 
         
     
-            $accesorio = NewUsers::all();
+            $users = NewUsers::all();
    
 
         return ['users' => $users];
