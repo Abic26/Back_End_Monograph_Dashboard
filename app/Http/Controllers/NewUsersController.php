@@ -20,10 +20,7 @@ class NewUsersController extends Controller
     }//
     public function getUser(Request $request)
     {
-        if (!$request->ajax()) return redirect('/');
 
-        $buscar = $request->buscar;
-        $criterio = $request->criterio;
         
     
             $accesorio = NewUsers::all();
