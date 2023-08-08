@@ -17,3 +17,4 @@ use App\Http\Controllers\Api\NewUsersController;
 
 Route::post("/newUsers", [NewUsersController::class, 'create']);
 Route::get("/newUsers/getusers", [NewUsersController::class, 'getUser']);
+URL::forceScheme('https');
