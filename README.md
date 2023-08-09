@@ -52,7 +52,7 @@ https://github.com/Abic26/Prueba_Tecnica_Eglobal/blob/main/README.md
 
 2. luego ingresaras al login para validar sus credenciales e ingresar a la tabla "Table Users Backend / Lavarel".
 
-![Pagina principal](public/img_readme/tabla_back.png)
+![Pagina principal](public/img_Readme/tabla_back.png)
 
 
 Credenciales login
@@ -64,10 +64,10 @@ Password
 ```sh
 Eglobal
 ```
-![Pagina principal](public/img_readme/login.png)
+![Pagina principal](public/img_Readme/login.png)
 
 3. Ingresaras a la tabla de datos donde podrá observar e interactuar con los datos de la base de datos (MySQL)
-![Pagina principal](public/img_readme/tabla_back.png)
+![Pagina principal](public/img_Readme/tabla_back.png)
 
 4. podrás crear nuevos datos con esta tabla e ingresar nuevos usuarios.
 
@@ -75,7 +75,7 @@ Eglobal
 
 Haz click en el botón de New User y complete los campos obligatorios:
 
-![Pagina principal](public/img_readme/Button_New_User.png)
+![Pagina principal](public/img_Readme/Button_New_User.png)
 
 ## Despliegue
 
@@ -83,7 +83,7 @@ Para el proyecto se desplego por medio de Railway.app, donde se alojo el servido
 
 ### MySQL (DATA BASE)
 Podra observar los datos creados de prueba y visualizarlos en la tabla "Table Users Backend / Lavarel"
-![Pagina principal](public/img_readme/MySQL_DB.png)
+![Pagina principal](public/img_Readme/MySQL_DB.png)
 
 ## Postman
 Archivo Postmas donde explica el metodo http o las solicitudes que se generaron para este proyecto, en este caso se utilizo "GET", "POST", para crear y ver los datos que se van ingresando y actualizando en tiempo real
