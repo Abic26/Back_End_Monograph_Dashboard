@@ -1,64 +1,138 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# Proyecto Monograph Dashboard
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Proyecto backend para gestionar y visualizar los datos que se envian a la base de datos que se creo para poder utilizar los metodos "GET", "POST" para [Monograph_Dashboard](https://prueba-tecnica-eglobal.vercel.app/#/) mediante el sistema de inicio de sesión. Este proyecto brinda acceso a los usuarios para explorar, crear los datos de la base de datos del proyecto.
 
-## About Laravel
+Visita el proyecto:
+[Backend_Monograph_Dashboard](https://github.com/Abic26/Back_Eglobal_Monograph_Dashboard.git)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Tabla de Contenidos
 
-## Learning Laravel
+- [Instalación](#instalación)
+- [Uso](#uso)
+- [Despliegue](#despliegue)
+- [Postman](#postman)
+- [Contribución](#Contribución)
+- [Créditos](#créditos)
+- [Licencia](#licencia)
+- [Contacto](#contacto)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## Instalación
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Sigue estos pasos para instalar y ejecutar la aplicación:
 
-## Laravel Sponsors
+1. Clonar el proyecto 
+```sh
+git clone https://github.com/Abic26/Back_Eglobal_Monograph_Dashboard.git
+```
+2. Seleccione donde descargo el proyecto:
+```sh
+cd ejemplo/ejemplo
+```
+3. Instala las dependencias:
+```sh
+composer update
+```
+4. Abrir el proyecto en el editor de código de preferencia, se recomienda Vsc (Visual Studio Code):
+```sh
+code .
+```
+5. inicializa el proyecto en local
+```sh
+php artisan serve
+```
+## Uso
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+1. Inicialice el proyecto como se indico anteriormente en [Monograph_Dashboard](https://prueba-tecnica-eglobal.vercel.app/#/) y siga los pasos que se utilizan para iniciar sesión o lea el readme del proyecto Monograoh_Dashboar:
 
-### Premium Partners
+```sh
+https://github.com/Abic26/Prueba_Tecnica_Eglobal/blob/main/README.md
+```
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+2. luego ingresaras al login para validar sus credenciales e ingresar a la tabla "Table Users Backend / Lavarel".
 
-## Contributing
+![Pagina principal](public/img_readme/tabla_back.png)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## Code of Conduct
+Credenciales login
+Usuario
+```sh
+Eglobal
+```
+Password
+```sh
+Eglobal
+```
+![Pagina principal](public/img_readme/login.png)
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+3. Ingresaras a la tabla de datos donde podrá observar e interactuar con los datos de la base de datos (MySQL)
+![Pagina principal](public/img_readme/tabla_back.png)
 
-## Security Vulnerabilities
+4. podrás crear nuevos datos con esta tabla e ingresar nuevos usuarios.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### Crear
 
-## License
+Haz click en el botón de New User y complete los campos obligatorios:
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+![Pagina principal](public/img_readme/Button_New_User.png)
+
+## Despliegue
+
+Para el proyecto se desplego por medio de Railway.app, donde se alojo el servidor backend y la base de datos para su uso. 
+
+### MySQL (DATA BASE)
+Podra observar los datos creados de prueba y visualizarlos en la tabla "Table Users Backend / Lavarel"
+![Pagina principal](public/img_readme/MySQL_DB.png)
+
+## Postman
+Archivo Postmas donde explica el metodo http o las solicitudes que se generaron para este proyecto, en este caso se utilizo "GET", "POST", para crear y ver los datos que se van ingresando y actualizando en tiempo real
+[Postman_Api_Eglobal](public/img_Readme/api-Eglobal.postman_collection.json)
+
+
+## Contribución
+
+Cómo contribuir al proyecto.
+1. Clonar el proyecto:
+```sh
+git clone https://github.com/Abic26/Back_Eglobal_Monograph_Dashboard.git
+```
+2. Crea una rama para la contribución: 
+```sh
+git checkout -b feature/nueva-funcionalidad
+```
+3. Realice sus cambios y realiza los commits: 
+```sh
+git add .
+git commit -m "Agrega nueva funcionalidad"
+```
+4. Realize push con sus nuevos cambios: 
+```sh
+git push origin feature/nueva-funcionalidad
+```
+
+## Créditos
+
+Este proyecto fue creado por [Andres Felipe Lopez S. "Abic26"](https://github.com/Abic26).
+
+## Licencia
+
+Este proyecto está bajo la Licencia MIT, lo que significa que puedes:
+
+- Usar el código en tus proyectos personales o comerciales.
+- Modificar el código para satisfacer tus necesidades.
+- Distribuir el código modificado o sin modificar.
+- Incluir el código en otros proyectos (con los atributos adecuados).
+
+**¡No tienes que pedir permiso!** Solo asegúrate de incluir el aviso de derechos de autor y la declaración de la Licencia MIT en las copias de tu proyecto.
+
+## Contacto
+
+Si tienes preguntas, sugerencias o comentarios sobre este proyecto, no dudes en ponerte en contacto. Puedes visitarme a través de:
+
+- Correo electrónico: [abicsupa@gmail.com](mailto:abicsupa@gmail.com)
+- Sitio web: [Abic26_github_page](https://abic26.github.io/Cv_Andres_Lopez/)
+
+¡Espero escuchar tus pensamientos y opiniones!
+
+

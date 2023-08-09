@@ -1,0 +1,63 @@
+{
+	"info": {
+		"_postman_id": "36617d4f-5072-4c70-9bf6-5c2e23c575fe",
+		"name": "api-Eglobal",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27148718"
+	},
+	"item": [
+		{
+			"name": "getusers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://backeglobalmonographdashboard-production.up.railway.app/newUsers/getusers",
+					"protocol": "https",
+					"host": [
+						"backeglobalmonographdashboard-production",
+						"up",
+						"railway",
+						"app"
+					],
+					"path": [
+						"newUsers",
+						"getusers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "newUsers",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"OzKr\",\r\n    \"email\":\"OzKr@gmail.com\",\r\n    \"phone\":\"317888\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://backeglobalmonographdashboard-production.up.railway.app/api/newUsers",
+					"protocol": "https",
+					"host": [
+						"backeglobalmonographdashboard-production",
+						"up",
+						"railway",
+						"app"
+					],
+					"path": [
+						"api",
+						"newUsers"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
