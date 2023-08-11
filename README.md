@@ -38,7 +38,11 @@ composer update
 ```sh
 code .
 ```
-5. inicializa el proyecto en local
+5. migrar el proyecto.
+```sh
+php artisan migrate
+```
+6. inicializa el proyecto en local.
 ```sh
 php artisan serve
 ```
